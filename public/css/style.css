@@ -1,0 +1,119 @@
+/* body{
+    background-color: lightcoral;
+} */
+ body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ } 
+ .container{
+    flex:1;
+ }
+ .add-btn{
+    background-color: red !important;
+    border: none!important;
+ }
+ .nav-link-end{
+    height:5rem ;
+    background-color: white;
+    color: #222222 !important;
+ }
+.navbar{
+    height:5rem ;
+    background-color: white;
+}
+.fa-compass-drafting{
+   color:red;
+   font-size: 2rem; 
+}
+.nav-link{
+    color: #222222 !important;
+}
+/* // footer */
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;  
+}
+.f-info-links,.f-info-socials,.f-info-brands{
+    /* vertical-align: middle; */
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.f-info-socials i{
+   margin-right: 1rem;
+   font-size: 1.2rem;
+   font-size: 1.2rem;
+}
+.f-info{
+    text-align: center;
+    background-color: grey;
+    height:8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* footer end  */
+/* hedaing  */
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* cards  */
+.listing-card {
+    border:none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%!important;
+    object-fit: cover !important;
+
+}
+.card-body{
+    padding:0rem !important;
+}
+.card-text{
+    font-weight: 400;
+}
+.listing-link{
+    text-decoration: none;
+}
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+    
+} 
+/* show  */
+.show-img{
+    height:30vh;
+    
+}
+.btns
+{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* home  */
+.head-gagan{
+    text-align: center;
+    display: flex;
+    text-decoration: solid;
+    color: rgb(149, 149, 236);
+    /* font-size: 1.5rem;
+} */
+}
