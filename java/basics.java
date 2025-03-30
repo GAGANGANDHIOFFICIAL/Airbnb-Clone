@@ -9,7 +9,7 @@ public class basics{
         
         
         
-      return fact(number-1);
+      return number*fact(number-1);
 
     }
     public static void main(String[] args) {
